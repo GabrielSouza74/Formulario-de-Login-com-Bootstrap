@@ -1,0 +1,39 @@
+body, html {
+            height: 100%;
+            margin: 0;
+        }
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #82d7d7; /* Um cinza um pouco mais suave */
+            padding: 1rem; /* Adiciona um respiro nas bordas da tela */
+        }
+
+        /* Estilo principal do container do formulário */
+        .login-form-container {
+            width: 100%;
+            max-width: 420px;
+            padding: 2.5rem; 
+            border-radius: 1rem; 
+            background-color: #eff2f2;
+            box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.1); 
+        }
+
+        /* Ajuste para o ícone de senha ficar dentro do campo */
+        .password-container {
+            position: relative;
+        }
+        #togglePassword {
+            position: absolute;
+            top: 50%;
+            right: 1rem;
+            transform: translateY(-50%);
+            cursor: pointer;
+            color: #6c757d;
+        }
+
+        /* Melhora o espaçamento do título */
+        .form-title {
+            margin-bottom: 2rem !important;
+        }
